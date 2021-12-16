@@ -1,1 +1,1 @@
-# install_mern_stack
+# Installing MERN stack
