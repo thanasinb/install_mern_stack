@@ -1,3 +1,12 @@
+# Connect VS Code to Ubuntu Multipass
+Install VS Code extension: Remote - SSH<br>
+
+[from https://dev.to/josuebustos/vs-code-remote-ssh-multipass-dn8]
+Create an SSH key and copy it into `/<user>/.ssh/authorized_keys`
+This way we can login to our Ubuntu Multipass using `ssh ubuntu@<ip address>`
+We can find the IP from `multipass list`
+
+
 # Installing MERN stack
 
 [from https://www.howtoforge.com/how-to-install-mern-stack-for-js-based-applications-on-debian-11/]<br>
@@ -58,4 +67,4 @@ GitLens<br>
 Git History<br>
 DotENV<br>
 Better comments<br>
-Remote - SSH<br>
+
