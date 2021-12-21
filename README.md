@@ -44,18 +44,18 @@ node --version
 [https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
 
 ## EXTENSIONS
-Auto Rename Tag
-Bracket Pair Colorizer
-ES7 React/Redux/GraphQL/React-Native snippets
-Prettier - Code formatter
-indent-rainbow
-VSCode React Refactor
-npm Intellisense
-ESLint
-Highlight Matching Tag
-TabOut
-GitLens
-Git History
-DotENV
-Better comments
-Remote - SSH
+Auto Rename Tag<br>
+Bracket Pair Colorizer<br>
+ES7 React/Redux/GraphQL/React-Native snippets<br>
+Prettier - Code formatter<br>
+indent-rainbow<br>
+VSCode React Refactor<br>
+npm Intellisense<br>
+ESLint<br>
+Highlight Matching Tag<br>
+TabOut<br>
+GitLens<br>
+Git History<br>
+DotENV<br>
+Better comments<br>
+Remote - SSH<br>
