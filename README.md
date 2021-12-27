@@ -1,3 +1,22 @@
+# Installing VS Code
+[https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
+
+## EXTENSIONS
+Auto Rename Tag<br>
+Bracket Pair Colorizer<br>
+ES7 React/Redux/GraphQL/React-Native snippets<br>
+Prettier - Code formatter<br>
+indent-rainbow<br>
+VSCode React Refactor<br>
+npm Intellisense<br>
+ESLint<br>
+Highlight Matching Tag<br>
+TabOut<br>
+GitLens<br>
+Git History<br>
+DotENV<br>
+Better comments<br>
+
 # Connect VS Code to Ubuntu Multipass
 Install VS Code extension: Remote - SSH<br>
 
@@ -51,23 +70,4 @@ node --version
 [continue https://dev.to/andrewbaisden/creating-mern-stack-applications-2020-4a44]
 [https://blog.logrocket.com/mern-stack-tutorial/]
 [https://codedec.com/tutorials/how-to-setup-express-server-to-develop-mern-application/]
-
-# Installing VS Code
-[https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
-
-## EXTENSIONS
-Auto Rename Tag<br>
-Bracket Pair Colorizer<br>
-ES7 React/Redux/GraphQL/React-Native snippets<br>
-Prettier - Code formatter<br>
-indent-rainbow<br>
-VSCode React Refactor<br>
-npm Intellisense<br>
-ESLint<br>
-Highlight Matching Tag<br>
-TabOut<br>
-GitLens<br>
-Git History<br>
-DotENV<br>
-Better comments<br>
 
