@@ -62,6 +62,27 @@ This code will publish `hello from NodeJS` to the `test` channel every 5s
 ## Adding user accounts into the Mosquitto
 [from https://www.arubacloud.com/tutorial/how-to-install-and-secure-mosquitto-on-ubuntu-20-04.aspx]
 
+To apply user account to Mosquitto, we need to add a user by
+```
+sudo mosquitto_passwd -c /etc/mosquitto/passwd [user]
+```
+This will prompt a password for the specified user
+
+Then, create the file: `default.conf`
+```
+sudo nano /etc/mosquitto/conf.d/default.conf
+```
+And paste the follwing script
+```
+allow_anonymous false
+password_file /etc/mosquitto/passwd
+```
+Finally, restart Mosquitto using
+```
+sudo systemctl restart mosquitto
+```
+<br>
+To test the configuration, modify the `MQTT_USER` and `MQTT_PASSWORD` in the above js file and run it again
 
 # Installing MongoDB
 
