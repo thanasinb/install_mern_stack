@@ -1,5 +1,5 @@
 # Installing VS Code
-[https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
+[from https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
 
 ## EXTENSIONS
 Auto Rename Tag<br>
@@ -17,7 +17,7 @@ Git History<br>
 DotENV<br>
 Better comments<br>
 
-# Connect VS Code to Ubuntu Multipass
+## Connect VS Code to Ubuntu Multipass
 Install VS Code extension: Remote - SSH<br>
 
 [from https://dev.to/josuebustos/vs-code-remote-ssh-multipass-dn8]<br>
@@ -26,8 +26,10 @@ This way we can login to our Ubuntu Multipass using `ssh ubuntu@<ip address>`<br
 We can find the IP from `multipass list`<br>
 
 
-# Installing MQTT
+# Integrating MQTT with NodeJS
+## Installing MQTT broker (Mosquitto)
 [from https://thanapontapala.medium.com/mqtt-%E0%B8%A5%E0%B8%AD%E0%B8%87-mqtt-%E0%B8%9A%E0%B8%99-nodejs-%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A-217a682e18e7]
+[from http://www.steves-internet-guide.com/using-node-mqtt-client/]
 ```
  sudo apt-get install mosquitto -y
  sudo apt-get install mosquitto-clients -y
@@ -37,6 +39,29 @@ In order to check Mosquitto is running
 ```
 sudo systemctl status mosquitto
 ```
+
+Simple test by publishing "hello world" via "test" topic, terminal 1 should see the message
+```
+mosquitto_sub -h localhost -t test //terminal 1
+mosquitto_pub -h localhost -t test -m "hello world" //terminal 2
+```
+
+## Mosquitto - NodeJS integration
+Create a NodeJS project directory, within the directory, install the MQTT package for the NodeJS
+```
+npm install mqtt --save
+```
+
+Test the system by creating a js file at the project directory.
+Then, copy and paste the code in the following link into the file: https://gist.github.com/toygame/5c7aab9bf63ca271ba330da7230934fe#file-mqtt-js and run
+```
+node [file.js]
+```
+This code will publish `hello from NodeJS` to the `test` channel every 5s
+
+## Adding user accounts into the Mosquitto
+[from https://www.arubacloud.com/tutorial/how-to-install-and-secure-mosquitto-on-ubuntu-20-04.aspx]
+
 
 # Installing MongoDB
 
