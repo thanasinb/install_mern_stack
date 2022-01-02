@@ -33,6 +33,11 @@ We can find the IP from `multipass list`<br>
  sudo apt-get install mosquitto-clients -y
 ```
 
+In order to check Mosquitto is running
+```
+sudo systemctl status mosquitto
+```
+
 # Installing MongoDB
 
 [from https://www.howtoforge.com/how-to-install-mern-stack-for-js-based-applications-on-debian-11/]<br>
