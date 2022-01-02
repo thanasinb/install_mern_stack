@@ -27,7 +27,11 @@ We can find the IP from `multipass list`<br>
 
 
 # Installing MQTT
-
+[from https://thanapontapala.medium.com/mqtt-%E0%B8%A5%E0%B8%AD%E0%B8%87-mqtt-%E0%B8%9A%E0%B8%99-nodejs-%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A-217a682e18e7]
+```
+ sudo apt-get install mosquitto -y
+ sudo apt-get install mosquitto-clients -y
+```
 
 # Installing MongoDB
 
