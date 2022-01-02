@@ -81,8 +81,16 @@ Finally, restart Mosquitto using
 ```
 sudo systemctl restart mosquitto
 ```
-<br>
 To test the configuration, modify the `MQTT_USER` and `MQTT_PASSWORD` in the above js file and run it again
+
+## Preparing ESP8266 for MQTT comm
+[from https://toomtamdn.medium.com/nodemcu-esp8266-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-mqtt-8366aaa27e32]
+In Arduino IDE, add PubSubClient library by clicking
+```
+Menu -> Sketch -> Include Library -> Manage Libraries…
+```
+Search for `PubSubClient` which is contributed by Nick O'Leary and install it
+
 
 # Installing MongoDB
 
