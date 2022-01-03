@@ -103,7 +103,7 @@ In Arduino IDE, add PubSubClient library by clicking
 ```
 Menu -> Sketch -> Include Library -> Manage Libraries…
 ```
-Search for `PubSubClient` which is contributed by Nick O'Leary and install it.
+Search for `PubSubClient` which is contributed by Nick O'Leary and install it.<br>
 Then, use the code provided in the above link to test the message publishing.
 
 # Installing MongoDB
