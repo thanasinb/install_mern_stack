@@ -3,14 +3,6 @@
 sudo apt install net-tools -y
 ```
 
-# Installing NodeJS
-[from https://github.com/nodesource/distributions]
-```
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node --version
-```
-
 # Installing VS Code
 [from https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
 
@@ -38,6 +30,14 @@ Create an SSH key and copy it into `/<user>/.ssh/authorized_keys`<br>
 This way we can login to our Ubuntu Multipass using `ssh ubuntu@<ip address>`<br>
 We can find the IP from `multipass list`<br>
 
+
+# Installing NodeJS
+[from https://github.com/nodesource/distributions]
+```
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node --version
+```
 
 # Integrating MQTT with NodeJS
 ## Installing MQTT broker (Mosquitto)
