@@ -1,6 +1,14 @@
 # Installing Ubuntu server
 sudo apt install net-tools -y
 
+# Installing NodeJS
+[from https://github.com/nodesource/distributions]
+```
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node --version
+```
+
 # Installing VS Code
 [from https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
 
@@ -121,14 +129,6 @@ mongo
 use admin
 db.createUser({user: "admin" , pwd: passwordPrompt() , roles: [{ role: "userAdminAnyDatabase" , db: "admin"}]})
 quit()
-```
-
-# Installing NodeJS
-[from https://github.com/nodesource/distributions]
-```
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node --version
 ```
 
 # Installing React.JS
