@@ -1,3 +1,6 @@
+# Installing Ubuntu server
+sudo apt install net-tools -y
+
 # Installing VS Code
 [from https://dev.to/rohidhub/top-10-vscode-extensions-for-react-57g6]
 
