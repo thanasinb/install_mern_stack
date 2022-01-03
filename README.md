@@ -42,6 +42,7 @@ node --version
 # Integrating MQTT with NodeJS
 ## Installing MQTT broker (Mosquitto)
 [from https://thanapontapala.medium.com/mqtt-%E0%B8%A5%E0%B8%AD%E0%B8%87-mqtt-%E0%B8%9A%E0%B8%99-nodejs-%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A-217a682e18e7]
+<br>
 [from http://www.steves-internet-guide.com/using-node-mqtt-client/]
 ```
  sudo apt-get install mosquitto -y
