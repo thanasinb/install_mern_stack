@@ -1,5 +1,7 @@
 # Installing Ubuntu server
+```
 sudo apt install net-tools -y
+```
 
 # Installing NodeJS
 [from https://github.com/nodesource/distributions]
