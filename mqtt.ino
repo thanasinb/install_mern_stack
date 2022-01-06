@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-#define WIFI_STA_NAME "Thanasin_2.4G"
-#define WIFI_STA_PASS "0869851715"
-#define MQTT_SERVER   "192.168.1.115"
+#define WIFI_STA_NAME "WIFI_NAME_HERE"
+#define WIFI_STA_PASS "PASSWORD_HERE"
+#define MQTT_SERVER   "SERVER_IP_HERE"
 #define MQTT_PORT     1883
 #define MQTT_USERNAME "user1"
 #define MQTT_PASSWORD "user1"
